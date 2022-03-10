@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-@import url('./avatar/avatar.css');
-@import url('/sidebar.css');
-@import url('./styles.css');
+@import url('/components/avatar/avatar.css');
+@import url('/components/alerts/alerts.css');
+@import url('/css/styles.css');
+@import url('/css/sidebar.css');
 
 :root{  
 
