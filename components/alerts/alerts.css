@@ -10,17 +10,16 @@
     width: 100%;
     max-width: max-content;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 1rem;
+    flex-flow: row wrap;
 
     word-wrap: break-word;
     
     padding: 0.5rem;
     margin: 1rem;
-    font-weight: bolder;
+    font-weight: 900;
 
     position: relative;
 }
@@ -29,34 +28,29 @@
 .alert-primary {
     background-color: var(--primary-bg-color);
     color: var(--active-color);
-    border: 0.1rem solid var(--primary-bg-color);
-    border-left: 0.5rem solid var(--active-color);
+    border: 0.1rem solid var(--active-color);
 }
 
 .alert-secondary {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-color);
-    border: 0.1rem solid var(--secondary-bg-color);
-    border-left: 0.5rem solid var(--secondary-color);
+    border: 0.1rem solid var(--secondary-color);
 }
 
 .alert-warning {
     background-color: var(--warning-bg-color);
     color:  var(--warning-color);
-    border: 0.1rem solid var(---warning-bg-color);
-    border-left: 0.5rem solid var(--warning-color);
+    border: 0.1rem solid var(--warning-color);
 }
 
-.alert-error {
+.alert-danger {
     background-color: var(--danger-bg-color);
     color: var(--danger-color);
-    border: 0.1rem solid var(--danger-bg-color);
-    border-left: 0.5rem solid var(--danger-color);
+    border: 0.1rem solid var(--danger-color);
 }
 
 .alert-success {
     background-color: var(--success-bg-color);
     color: var(--success-color);
-    border: 0.1rem solid var(--success-bg-color);
-    border-left: 0.5rem solid var(--success-color);
+    border: 0.1rem solid var(--success-color);
 }
