@@ -1,0 +1,56 @@
+:root{
+    --primary-bg-color: #B3E5FC;
+    --secondary-bg-color: #E0E0E0;
+    --danger-bg-color:#FFCDD2;
+    --success-bg-color: #C8E6C9;
+    --warning-bg-color:#FFE0B2;
+}
+
+.alert {
+    width: 100%;
+    max-width: max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-flow: row wrap;
+
+    word-wrap: break-word;
+    
+    padding: 0.5rem;
+    margin: 1rem;
+    font-weight: 900;
+
+    position: relative;
+}
+
+/* Alert variations */
+.alert-primary {
+    background-color: var(--primary-bg-color);
+    color: var(--active-color);
+    border: 0.1rem solid var(--active-color);
+}
+
+.alert-secondary {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-color);
+    border: 0.1rem solid var(--secondary-color);
+}
+
+.alert-warning {
+    background-color: var(--warning-bg-color);
+    color:  var(--warning-color);
+    border: 0.1rem solid var(--warning-color);
+}
+
+.alert-danger {
+    background-color: var(--danger-bg-color);
+    color: var(--danger-color);
+    border: 0.1rem solid var(--danger-color);
+}
+
+.alert-success {
+    background-color: var(--success-bg-color);
+    color: var(--success-color);
+    border: 0.1rem solid var(--success-color);
+}
