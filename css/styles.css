@@ -121,7 +121,7 @@ nav{
     margin: 0.5rem;
 }
 
-.footer .link{
+.footer.link{
     font-size: 1.3rem;
 }
 
@@ -137,7 +137,7 @@ nav{
     display: inline;
     padding: 0rem 0.5rem;
 }
-.footer ul{
+.footer.ul{
     padding-inline-start: 0px;
 }
 
