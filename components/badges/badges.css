@@ -1,0 +1,65 @@
+.profile-badge {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    border: 2px solid var(--bg-color);
+    border-radius: 2rem;
+}
+
+.badge-container {
+    width: max-content;
+    position: relative;
+}
+
+.status-online {
+    background-color: var(--success-color)
+}
+
+.status-idle {
+    background-color: var(--warning-color);
+}
+
+.status-do-not-disturb{
+    background-color: var(--danger-color);
+}
+
+.status-offline {
+    background-color: var(--secondary-color);
+}
+
+.status-invisible {
+    background-color: var(--bg-color);
+    border: 3.5px solid var(--secondary-color);
+}
+
+.badge-status.badge-notification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: none;
+    left: 60%;
+    bottom: 65%;
+    font-size: 0.9rem;
+    font-weight: 900;
+    width: 1.4rem;
+    height: 1.4rem;
+    min-width: max-content;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+}
+
+.round-badge {
+    border-radius: 2rem;
+}
