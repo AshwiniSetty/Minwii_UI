@@ -3,6 +3,7 @@
 
 @import url('/components/avatar/avatar.css');
 @import url('/components/alerts/alerts.css');
+@import url('/components/badges/badges.css');
 @import url('/css/styles.css');
 @import url('/css/sidebar.css');
 
@@ -84,6 +85,7 @@
 
 .code-container iframe {
     width: 100%;
+    height: max-content;
     border: none;
     overflow: scroll;
 }
@@ -93,22 +95,10 @@
     padding: 0.5rem 0rem;
     overflow: auto;
     border: 1px solid var(--secondary-color);
+    border-radius: 4px;
     background-color: var(--bg-color);
     margin-bottom: 1rem;
-}
-
-.code-container::-webkit-scrollbar {
-    width: 0.5rem;
-    height: 0.5rem;
-}
-  
-.code-container::-webkit-scrollbar-thumb {
-    background-color: var(--light-gray-color);
-    
-}
-
-.code-container::-webkit-scrollbar-button {
-    margin: 0.5rem 0;
+    height: max-content;
 }
 
 .divider{
@@ -160,12 +150,4 @@ a{
         font-size: 1.3rem;
     }
 
-
-    .example-code{
-        display: none;
-    }
-
-    .type-2{
-        margin-bottom: 1rem;
-    }
 }
