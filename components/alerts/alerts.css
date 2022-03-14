@@ -54,3 +54,30 @@
     color: var(--success-color);
     border: 0.1rem solid var(--success-color);
 }
+
+.alert-contained{
+    color: var(--bg-color);
+    border: none;
+}
+
+.alert-contained.alert-primary{
+    background-color: var(--primary-color); 
+}
+
+.alert-contained.alert-secondary{
+    background-color: var(--secondary-color); 
+}
+
+.alert-contained.alert-success{
+    background-color: var(--success-color); 
+}
+
+.alert-contained.alert-warning{
+    background-color: var(--warning-color); 
+}
+
+.alert-contained.alert-danger{
+    background-color: var(--danger-color); 
+}
+
+
