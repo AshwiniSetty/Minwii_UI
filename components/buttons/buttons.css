@@ -1,0 +1,154 @@
+/* BUTTON COMPONENT START */
+
+/* Contained Button */
+/* Contained Defualt Button */
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    width: max-content;
+    min-width: 100px;
+    height: max-content;
+
+    font-weight: bold;
+    background: var(--default-color);
+    color: var(--off-white);
+
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 0.8rem;
+    border: none;
+}
+
+.btn:hover{
+    background-color: var(--active-color);
+}
+
+/* Contained Primary Button */
+.btn-primary{
+    background-color : var(--primary-color);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-hover);
+}
+
+/* Contained Secondary Button */
+.btn-secondary{
+    background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover{
+    background-color: var(--secondary-hover);
+}
+
+/* Contained Error Button */
+.btn-error{
+    background-color: var(--danger-color);
+}
+
+.btn-error:hover{
+    background-color: var(--danger-hover);
+}
+
+
+/*Contained Success Button */
+.btn-success{
+    background-color: var(--success-color);
+}
+
+.btn-success:hover{
+    background-color: var(--success-hover);
+}
+
+/* Outline Button */
+/* Default Outline Button */
+.outline{
+    background-color: var(--off-white);
+    border: 1px solid var(--default-color);
+    color : var(--default-color)
+}
+
+.btn.outline:hover{
+    background-color: var(--default-color);
+    color : var(--off-white)
+}
+
+/* Primary Outline Button */
+.btn.outline-primary{
+    background-color: var(--off-white);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.btn.outline-primary:hover{
+    background-color: var(--primary-color);
+    color: var(--off-white);
+}
+
+/* Success Outline Button */
+.btn.outline-success{
+    background-color: var(--off-white);
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+}
+
+.btn.outline-success:hover{
+    background-color: var(--success-color);
+    color: var(--off-white);
+}
+
+
+/* Error Outline Button */
+.btn.outline-error{
+    background-color: var(--off-white);
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+}
+
+.btn.outline-error:hover{
+    background-color: var(--danger-color);
+    color: var(--off-white);
+}
+
+
+
+/*Link Button */
+.btn-link{
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem;
+    color: var(--primary-color);
+}
+
+.btn-link:hover{
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+
+/*Disabled Button */
+.btn-disabled {
+    pointer-events: none;
+    opacity: 0.7;  
+}
+
+/*Icon Button */
+.btn-icon{
+    padding: 1.5rem;
+    font-size: 2rem;
+    border: none;
+    color: var(--primary-color);
+    transition: all .5s ease-in-out;
+    background-color: var(--off-white);
+    cursor: pointer;
+}
+
+.btn-icon:hover{
+    color: var(--primary-hover);
+} 
+
+.btn.btn-full-width {
+    width: 100%;
+}
