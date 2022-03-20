@@ -266,10 +266,6 @@
     top: 50%;
     right: 50%;
     z-index: 1;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
     background-color: var(--default-color);
     color: var(--bg-color);
     width: max-content;
@@ -296,11 +292,6 @@
     align-items: center;
     background-color: var(--overlay-bg);
     display: none;
-    border-radius: var(--br-5);
-    -webkit-border-radius: var(--br-5);
-    -moz-border-radius: var(--br-5);
-    -ms-border-radius: var(--br-5);
-    -o-border-radius: var(--br-5);
 }
 
 .card-text-only .card-header {
