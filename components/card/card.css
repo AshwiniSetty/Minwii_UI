@@ -1,0 +1,321 @@
+/*card-css*/
+.card {
+    --overlay-bg: hsla(0, 0%, 90%, 0.6);
+    background-color: var(--white);
+}
+
+/*horizontal card*/
+.card-horizontal {
+    max-height: max-content;
+    position: relative;
+    max-width: 100%;
+}
+
+.card-horizontal .card-main {
+    display: flex;
+}
+
+.card-horizontal .card-header {
+    height: auto;
+    flex: 1;
+    align-self: flex-start;
+}
+
+.card-horizontal .card-img {
+    height: 100%;
+    min-width: 100px;
+}
+
+.card-horizontal .card-content {
+    align-self: center;
+}
+
+/*vertical card*/
+.card-vertical {
+    max-width: 300px;
+    width: 100%;
+    height: max-content;
+}
+
+/*card contents*/
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-main {
+    position: relative;
+}
+
+.card-content {
+    max-width: 100%;
+    flex: 2;
+}
+
+.card-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.card-body, .card-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.card-title, .card-subtitle {
+    word-wrap: break-word;
+}
+
+.card-subtitle {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.75rem;
+}
+
+.card-description {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 0.5rem;
+    margin-bottom:  0.5rem;
+
+}
+
+.card-price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0 var(--space-1-5);
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.price-discounted {
+    font-weight: bold;
+}
+
+.price-original{
+    color: var(--secondary-color);
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.percentage-discount {
+    color: var(--danger-color);
+    font-size: 12px;
+
+}
+
+/*icon-badge for cards*/
+.card.card-wt-badge .badge,
+.card-wt-dismiss .btn-dismiss.btn {
+    display: block;
+    z-index: var(--z-index-badges);
+}
+
+.card .badge {
+    top: 0;
+    left: 0.5rem;
+    display: none;
+}
+
+.btn-dismiss.btn {
+    color: var(--text-color);
+    top: 0;
+    right: 0;
+    display: none;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+
+.card-badge{
+    display: block;
+    z-index: 1;
+    background-color: var(--default-color);
+    color: var(--bg-color);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    /*position: absolute;*/
+    line-height: 1;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.75rem 0.5rem;
+    margin: 0%;
+    
+}
+
+/*image for cards*/
+.card-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.img-responsive {
+    max-inline-size: 100%;
+    block-size: auto;
+    font-size: inherit;
+    display: block;
+    max-width: 100%;
+}
+
+
+/* card footer */
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin-bottom: 1rem;
+}
+
+/*simple text card*/
+
+.text-card .card-footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+.text-card .btn-icon{
+    background: none;
+    padding: 0% 0% 1rem 0%;
+    font-size: 1.5rem;
+    color: var(--default-color);
+}
+
+.text-card .btn-icon:hover{
+    color: var(--primary-color);
+}
+
+
+.card-btn{
+    display: block;
+    z-index: 1;
+    color: var(--default-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+
+.card-btn:hover{
+    color: var(--primary-color);
+}
+
+
+.btn{
+    margin: 0% 1rem;
+    font-size: 1rem;
+}
+
+.card-footer .btn {
+    height: max-content;
+}
+
+/*card with shadow*/
+.card-shadow {
+    box-shadow: 0 0 0.75rem 0.25rem var(--box-shadow-color);
+}
+
+
+/*card with overlay text*/
+
+.overlay-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 50%;
+    top: 50%;
+    right: 50%;
+    z-index: 1;
+    background-color: var(--default-color);
+    color: var(--bg-color);
+    width: max-content;
+    height: max-content;
+    box-shadow: 0px 0px 1rem 0.5rem var(--box-shadow-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.overlay-container .overlay {
+    display: flex;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--overlay-bg);
+    display: none;
+}
+
+.card-text-only .card-header {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .card-horizontal {
+        max-height: max-content;
+        padding: 0;
+    }
+    
+    .card-horizontal .card-main {
+        flex-direction: column;
+    }
+    
+    .card-horizontal .card-content {
+        margin: 0;
+    }
+
+    .text-card .card-footer{
+        justify-content: space-around;
+        flex-wrap:nowrap;
+        
+    }
+    
+}
