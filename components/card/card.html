@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dd0d05bba7.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="author" content="Ashwini Setty">
+    <meta name="description" content="Miniwii UI - The component library that can be used for building your website, Quick and Easy!">
+    <title>Minwii | Home</title>
+    <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="/index.html">Minwii</a>
+            </div>
+            <ul class="right-nav">
+                <li><a href="/components/avatar/avatar.html">Docs</a></li>
+                <li><a href="https://github.com/AshwiniSetty/Minwii_UI">Github</a></li>
+            </ul>
+        </nav>
+        <div class="doc-container">
+            <div class="side-bar">            
+                <!-- Components List start -->
+                <div class="nested-list">
+                    <div class="list-topic">
+                        <a href="#">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li><a href="/components/avatar/avatar.html">Avatar</a></li>
+                        <li><a href="/components/alerts/alerts.html">Alert</a></li>
+                        <li><a href="/components/badges/badges.html">Badge</a></li>
+                        <li><a href="/components/buttons/buttons.html">Button</a></li>
+                        <li><a class="active" href="/components/card/card.html">Card</a></li>
+                        <li><a href="#">Image</a></li>
+                        <li><a href="#">Input</a></li>
+                        <li><a href="#">Text Utilities</a></li>
+                        <li><a href="#">Lists</a></li>
+                        <li><a href="#">Navigation</a></li>
+                        <li><a href="#">Modal</a></li>
+                        <li><a href="#">Rating</a></li>
+                        <li><a href="#">Toast</a></li>
+                        <li><a href="#">Grid</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="doc-content">
+                <!-- Cards Component starts -->
+                <div class="content-title">
+                    Cards
+                </div>
+                <div class="content-subtitle">
+                    CSS cards are great for organizing and enhancing a website's user interface. Each card is uniquely designed to make it easy for users to read the card content. CSS cards are great for organizing and enhancing a website's user interface. Each card is uniquely designed to make it easy for users to read the card content.
+                </div>
+
+
+                <div class="divider"></div>
+
+                <div class="content-subtitle">
+                    To generate a card, use the base 'card' class, and for horizontal and vertical cards, use 'card-horizontal' and 'card-vertical' respectively.               
+                </div>
+
+                <!-- Horizontal Card -->
+                <div class="content-head">
+                    Horizontal Card
+                </div>
+                <div class="example-display">
+                    <div class="card card-horizontal">
+                        <div class="card-main">
+                            <div class="card-header">
+                                <img src="/assets/images/Fiddle-Fig.jpg" alt=" " class="card-img img-responsive">
+                            </div>
+                             <div class="card-content">
+                                <div class="card-body">
+                                        <p class="card-title">Fiddle Leaf Fig Bambino Plant</p>
+                                        <p class="card-description">Fiddle Leaf Fig Bambino is an exotic compact variety of the most famous Fiddle Leaf Fig (FLF), this particular variety is widely popular in modern home decor purposes, making it the first choice in the plant parents community.</p>
+                                        <div class="card-price">
+                                            <div class="price">
+                                                <span class="price-discounted">₹300.00</span>
+                                                <span class="price-original">                                                        ₹330.00</span>  
+                                                <span class="percentage-discount">(10% OFF)</span>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="card-footer">
+                                    <label style="align-self:center; margin-left: 1rem; font-weight: 600;">Quantity :</label>
+                                    <input type="number" style="width: 4rem;">
+                                    <button  class="btn btn-primary">
+                                         <span>
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        Add to cart
+                                    </button>                                     
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-main%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252FFiddle-Fig.jpg%2522%2520class%253D%2522card-img%2520img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522card-title%2522%253EFiddle%2520Leaf%2520Fig%2520Bambino%2520Plant%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EFiddle%2520Leaf%2520Fig%2520Bambino%2520is%2520an%2520exotic%2520compact%2520%2509%2509%2509%2509%2509variety%2520of%2520the%2520most%2520famous%2520Fiddle%2520Leaf%2520Fig%2520%28FLF%29%252C%2520this%2520particular%2520variety%2520is%2520%2509%2509%2509%2509%2520widely%2520popular%2520in%2520modern%2520home%2520decor%2520purposes%252C%2520making%2520it%2520the%2520first%2520choice%2520in%2520%2509%2509%2509%2509%2520the%2520plant%2520parents%2520community.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522price-discounted%2522%253E%25E2%2582%25B9300.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-original%2522%253E%25E2%2582%25B9330.00%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522percentage-discount%2522%253E%2810%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Clabel%253EQuantity%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cinput%2520type%253D%2522number%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cbutton%2520%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                
+                <div class="divider"></div>
+
+                <!-- Vertical Card -->
+
+                <div class="content-head">
+                    Vertical Card
+                </div>
+
+                <div class="example-display">
+                    <div class="card card-vertical">
+                        <div class="card-main">
+                            <div class="card-header">
+                                <img src="/assets/images/airpods.jpg" alt=" " class="card-img img-responsive">
+                            </div>
+                             <div class="card-content">
+                                <div class="card-body">
+                                        <p class="card-title">Apple AirPods Pro</p>
+                                        <p class="card-subtitle">10 days replacement only</p>
+                                        <div class="card-price">
+                                            <div class="price">
+                                                <span class="price-discounted">₹20,490</span>
+                                                <span class="price-original">                                                        ₹24,900.00</span>  
+                                            </div>
+                                            <span class="percentage-discount">(18% OFF)</span>  
+                                        </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button  class="btn btn-primary btn-full-width">
+                                         <span>
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        Add to cart
+                                    </button> 
+                                    <button  class="btn outline-primary btn-full-width">
+                                         <span>
+                                            <i class="far fa-heart"></i>
+                                        </span>Wishlist
+                                    </button>                                    
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-main%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Fairpods.jpg%2522%2520alt%253D%2522%2520%2522%2520class%253D%2522card-img%2520img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522card-title%2522%253EApple%2520AirPods%2520Pro%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253E10%2520days%2520replacement%2520only%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522price-discounted%2522%253E%25E2%2582%25B920%252C490%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-original%2522%253E%25E2%2582%25B924%252C900.00%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522percentage-discount%2522%253E%2818%2525%2520OFF%29%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253EWishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Card with Badge -->
+
+                <div class="content-head">
+                    Card with Badge
+                </div>
+
+                <div class="content-subtitle">
+                    To generate a card with badge, use 'card-badge' class inside card header class.               
+                </div>
+
+                <div class="example-display">
+                    <div class="card card-vertical">
+                        <div class="card-main">
+                            <div class="card-header">
+                                <span class="card-badge">New Season</span>
+                                <button class="card-btn">
+                                    <span>
+                                        <i class="far fa-heart"></i>
+                                    </span>
+                                </button>
+                                
+                                <img src="/assets/images/phone.jpg" alt=" " class="card-img img-responsive">
+                            </div>
+                             <div class="card-content">
+                                <div class="card-body">
+                                        <p class="card-title">Samsung Galaxy S21</p>
+                                        <p class="card-subtitle">(Lavender, 8GB, 128GB Storage)</p>
+                                        <div class="card-price">
+                                            <div class="price">
+                                                <span class="price-discounted">₹54,999.00</span>
+                                                <span class="price-original">                                                        ₹74,999.00</span>  
+                                            </div>
+                                            <span class="percentage-discount">(27% OFF)</span>  
+                                        </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button  class="btn btn-primary btn-full-width">
+                                         <span>
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        Add to cart
+                                    </button>                                   
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-main%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522card-badge%2522%253ENew%2520Season%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Fphone.jpg%2522%2520alt%253D%2522%2520%2522%2520class%253D%2522card-img%2520img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522card-title%2522%253ESamsung%2520Galaxy%2520S21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253E%28Lavender%252C%25208GB%252C%2520128GB%2520Storage%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522price-discounted%2522%253E%25E2%2582%25B954%252C999.00%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-original%2522%253E%25E2%2582%25B974%252C999.00%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522percentage-discount%2522%253E%2827%2525%2520OFF%29%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520%2520class%253D%2522btn%2520btn-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%2509%2509%2509Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Card with Dismiss Button -->
+
+                <div class="content-head">
+                    Card with Dismiss Button
+                </div>
+
+                <div class="content-subtitle">
+                    To generate a card with dismiss button, use 'card-btn' class inside card header class.               
+                </div>
+
+                <div class="example-display">
+                    <div class="card card-vertical">
+                        <div class="card-main">
+                            
+                            <div class="card-header">
+                                <button class="card-btn">
+                                    <span>
+                                        <i class="fas fa-times"></i>
+                                    </span>
+                                </button>
+                                <img src="/assets/images/airpods.jpg" alt=" " class="card-img img-responsive">
+                            </div>
+                             <div class="card-content">
+                                <div class="card-body">
+                                        <p class="card-title">Apple AirPods Pro</p>
+                                        <p class="card-subtitle">10 days replacement only</p>
+                                        <div class="card-price">
+                                            <div class="price">
+                                                <span class="price-discounted">₹20,490</span>
+                                                <span class="price-original">                                                        ₹24,900.00</span>  
+                                            </div>
+                                            <span class="percentage-discount">(18% OFF)</span>  
+                                        </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button  class="btn btn-primary btn-full-width">
+                                         <span>
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        Add to cart
+                                    </button> 
+                                    <button  class="btn outline-primary btn-full-width">
+                                         <span>
+                                            <i class="fas fa-heart"></i>
+                                        </span>Wishlisted
+                                    </button>                                    
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-main%2522%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Fairpods.jpg%2522%2520alt%253D%2522%2520%2522%2520class%253D%2522card-img%2520img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cp%2520class%253D%2522card-title%2522%253EApple%2520AirPods%2520Pro%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cp%2520class%253D%2522card-subtitle%2522%253E10%2520days%2520replacement%2520only%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522price-discounted%2522%253E%25E2%2582%25B920%252C490%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-original%2522%253E%25E2%2582%25B924%252C900.00%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522percentage-discount%2522%253E%2818%2525%2520OFF%29%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520%2520class%253D%2522btn%2520btn-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522btn%2520outline-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%2509%2509%2509Wishlisted%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Card with Overlay Text -->
+
+                <div class="content-head">
+                    Card with Overlay Text
+                </div>
+
+                <div class="content-subtitle">
+                    To generate a card with Overlay Text, use 'overlay-container' class along with base class and horizontal or vertical card.               
+                </div>
+
+                <div class="example-display">
+                    <div class="card card-vertical overlay-container">
+                        <div class="card-main ">
+                            <div class="card-header">
+                                <img src="/assets/images/airpods.jpg" alt=" " class="card-img img-responsive">
+                            </div>
+                             <div class="card-content">
+                                <div class="card-body">
+                                        <p class="card-title">Apple AirPods Pro</p>
+                                        <p class="card-subtitle">10 days replacement only</p>
+                                        <div class="card-price">
+                                            <div class="price">
+                                                <span class="price-discounted">₹20,490</span>
+                                                <span class="price-original">                                                        ₹24,900.00</span>  
+                                            </div>
+                                            <span class="percentage-discount">(18% OFF)</span>  
+                                        </div>
+                                </div>
+                                <div class="overlay">
+                                    <span class="overlay-text">
+                                        Out of Stock
+                                    </span>
+                                </div>
+                                <div class="card-footer">
+                                    <button  class="btn btn-primary btn-full-width">
+                                         <span>
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        Add to cart
+                                    </button> 
+                                    <button  class="btn outline-primary btn-full-width">
+                                         <span>
+                                            <i class="far fa-heart"></i>
+                                        </span>Wishlist
+                                    </button>                                    
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-main%2520overlay-container%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Fairpods.jpg%2522%2520alt%253D%2522%2520%2522%2520class%253D%2522card-img%2520img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522card-title%2522%253EApple%2520AirPods%2520Pro%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253E10%2520days%2520replacement%2520only%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522price-discounted%2522%253E%25E2%2582%25B920%252C490%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-original%2522%253E%25E2%2582%25B924%252C900.00%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522percentage-discount%2522%253E%2818%2525%2520OFF%29%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522overlay-text%2522%253EOut%2520of%2520Stock%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520%2520class%253D%2522btn%2520btn-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520%2520class%253D%2522btn%2520outline-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%2520%2520%2520%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Card with Shadow -->
+
+                <div class="content-head">
+                    Card with Shadow
+                </div>
+
+                <div class="content-subtitle">
+                    To generate a card with Shadow, use 'card-shadow' class along with base class and horizontal or vertical card.               
+                </div>
+
+                <div class="example-display">
+                    <div class="card card-vertical card-shadow">
+                        <div class="card-main">
+                            <div class="card-header">
+                                <img src="/assets/images/airpods.jpg" alt=" " class="card-img img-responsive">
+                            </div>
+                             <div class="card-content">
+                                <div class="card-body">
+                                        <p class="card-title">Apple AirPods Pro</p>
+                                        <p class="card-subtitle">10 days replacement only</p>
+                                        <div class="card-price">
+                                            <div class="price">
+                                                <span class="price-discounted">₹20,490</span>
+                                                <span class="price-original">                                                        ₹24,900.00</span>  
+                                            </div>
+                                            <span class="percentage-discount">(18% OFF)</span>  
+                                        </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button  class="btn btn-primary btn-full-width">
+                                         <span>
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        Add to cart
+                                    </button> 
+                                    <button  class="btn outline-primary btn-full-width">
+                                         <span>
+                                            <i class="far fa-heart"></i>
+                                        </span>Wishlist
+                                    </button>                                    
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-shadow%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-main%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252Fairpods.jpg%2522%2520class%253D%2522card-img%2520img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522card-title%2522%253EApple%2520AirPods%2520Pro%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253E10%2520days%2520replacement%2520only%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522price-discounted%2522%253E%25E2%2582%25B920%252C490%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-original%2522%253E%25E2%2582%25B924%252C900.00%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522percentage-discount%2522%253E%2818%2525%2520OFF%29%253C%252Fspan%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520%2520class%253D%2522btn%2520btn-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522btn%2520outline-primary%2520btn-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509Wishlist%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Simple Text Card -->
+
+                <div class="content-head">
+                    Simple Text Card
+                </div>
+
+                <div class="content-subtitle">
+                    To generate a card with Simple Text, use 'text-card' class along with base class and horizontal or vertical card.               
+                </div>
+
+                <div class="example-display">
+                    <div class="card card-vertical text-card">
+                        <div class="card-main">
+                             <div class="card-content">
+                                <div class="card-body">
+                                        <p class="card-title">The Alchemist</p>
+                                        <p class="card-subtitle">Paulo Coelho</p>
+                                        <p class="card-description">This is a brilliant book by Paulo Coelho, which is picturizing the story of a shepherd boy who dreams of travelling the world in search of treasure as desirable as any ever found. It is an unforgettable story about the essential wisdom of listening to our heart and, above all, following our dreams.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button  class="btn-icon">
+                                         <span>
+                                            <i class="far fa-thumbs-up"></i>
+                                        </span>
+                                    </button> 
+                                    <button  class="btn-icon">
+                                         <span>
+                                            <i class="far fa-comment"></i>
+                                        </span>
+                                    </button>
+                                    <button  class="btn-icon">
+                                        <span>
+                                            <i class="fa-solid fa-share"></i>
+                                       </span>
+                                   </button>                                    
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520text-card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-main%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522card-title%2522%253EThe%2520Alchemist%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253EPaulo%2520Coelho%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253EThis%2520is%2520a%2520brilliant%2520book%2520by%2520Paulo%2520Coelho%252C%2520which%2520%2509%2509%2509%2509is%2520picturizing%2520the%2520story%2520of%2520a%2520shepherd%2520boy%2520who%2520dreams%2520of%2520travelling%2520the%2520%2509%2509%2509%2509%2509world%2520in%2520search%2520of%2520treasure%2520as%2520desirable%2520as%2520any%2520ever%2520found.%2520It%2520is%2520an%2520%2509%2509%2509%2509%2509%2509unforgettable%2520story%2520about%2520the%2520essential%2520wisdom%2520of%2520listening%2520to%2520our%2520heart%2520%2509%2509%2509%2509%2509and%252C%2520above%2520all%252C%2520following%2520our%2520dreams.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cbutton%2520%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-thumbs-up%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-comment%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522fa-solid%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                </div>
+
+                <div class="divider"></div>
+                
+                <!--Navigation-->
+                <div class="navigate">
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="/components/buttons/buttons.html">Button</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="/components/image/image.html">Image</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-header">Made with <i class="fas fa-code"></i> by Ashwini Setty</div>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="https://github.com/AshwiniSetty" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ashwini-setty-b57313158/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/Ashwini_Setty" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+    </ul>
+    <div class="footer-header">&copy; 2022 - Minwii</div>
+</footer>
+</body>
+</html> 
