@@ -12,13 +12,13 @@
     font-weight: bold;
     background: var(--default-color);
     color: var(--off-white);
-    
+
     padding: 0.8rem 1rem;
     border-radius: 0.5rem;
-    border: none;
     cursor: pointer;
     transition: all .3s ease-in-out;
     margin: 0.8rem;
+    border: none;
 }
 
 .btn:hover{
@@ -147,4 +147,8 @@
 
 .btn-icon:hover{
     color: var(--primary-hover);
+} 
+
+.btn.btn-full-width {
+    width: 100%;
 }
