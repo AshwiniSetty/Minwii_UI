@@ -1,0 +1,46 @@
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    margin-left: 0%;
+    padding: 0.5rem;
+}
+
+.text-label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.input-text{
+    border: 1px solid var(--default-color);
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--default-color);
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 6px;
+}
+
+.text-message {
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.input-success .text-message{
+    color: var(--success-color);
+}
+
+.input-warning .text-message{
+    color: var(--warning-color);
+}
+
+.input-error .text-message{
+    color: var(--danger-color);
+}
+
+.textbox {
+    flex-wrap: wrap;
+    width: 100%;
+}
