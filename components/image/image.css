@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .img-round {
+    .image-round {
         width: 50vw;
         height: 50vw;
     }
