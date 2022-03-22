@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dd0d05bba7.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="author" content="Ashwini Setty">
+    <meta name="description" content="Miniwii UI - The component library that can be used for building your website, Quick and Easy!">
+    <title>Minwii | Home</title>
+    <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="/index.html">Minwii</a>
+            </div>
+            <ul class="right-nav">
+                <li><a href="/components/avatar/avatar.html">Docs</a></li>
+                <li><a href="https://github.com/AshwiniSetty/Minwii_UI">Github</a></li>
+            </ul>
+        </nav>
+        <div class="doc-container">
+            <div class="side-bar">            
+                <!-- Components List start -->
+                <div class="nested-list">
+                    <div class="list-topic">
+                        <a href="#">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li><a href="/components/avatar/avatar.html">Avatar</a></li>
+                        <li><a href="/components/alerts/alerts.html">Alert</a></li>
+                        <li><a href="/components/badges/badges.html">Badge</a></li>
+                        <li><a href="/components/buttons/buttons.html">Button</a></li>
+                        <li><a href="/components/card/card.html">Card</a></li>
+                        <li><a href="/components/image/image.html">Image</a></li>
+                        <li><a class="active" href="/components/input/input.html">Input</a></li>
+                        <li><a href="#">Text Utilities</a></li>
+                        <li><a href="#">Lists</a></li>
+                        <li><a href="#">Navigation</a></li>
+                        <li><a href="#">Modal</a></li>
+                        <li><a href="#">Rating</a></li>
+                        <li><a href="#">Toast</a></li>
+                        <li><a href="#">Grid</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="doc-content">
+                <!-- Input Component starts -->
+                <div class="content-title">
+                    Input
+                </div>
+                <div class="content-subtitle">
+                    The Input element is used to create interactive controls for web-based forms in order to accept data from the user. They can be of different types - text, number, password, email, submit, etc
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Default Input -->
+                <div class="content-head">
+                    Default Input
+                </div>
+
+                <div class="example-display">
+                    <div>
+                        <label class="text-label" for="input-email">
+                        Email Id
+                        </label>
+                        <input type="email" class="input-text" id="input-email" placeholder="Enter your email...">
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F*Use%2520%27text-label%27%2520and%2520%27input-text%27%2520class%2520for%2520label%2520and%2520input%2520respectively%2520for%2520baisc%2520input*%252F%250A%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-email%2522%253EEmail%2520Id%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522input-text%2522%2520id%253D%2522input-email%2522%2520placeholder%253D%2522Enter%2520your%2520email...%2522%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Form Input -->
+
+                <div class="content-head">
+                    Form Input
+                </div>
+
+                <div class="example-display">
+                    <div class="form-input">
+                        <label class="text-label" for="input-name">
+                        Name
+                        </label>
+                        <input type="text" class="input-text" id="input-name" placeholder="Name">
+                        <label class="text-label" for="input-email">
+                        Email Id
+                        </label>
+                        <input type="text" class="input-text" id="input-email" placeholder="Email Id">
+                        <label class="text-label" for="input-tel">
+                        Phone Number
+                        </label>
+                        <input type="tel" class="input-text" id="input-tel" placeholder="Phone number">
+                        <label class="text-label" for="input-bdate">
+                        Birth Date
+                        </label>
+                        <input type="date" class="input-text" id="input-bdate" placeholder=" ">
+                        <button class="btn btn-full-width">Submit</button>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F*Use%2520%27form-input%27%2520and%2520Use%2520%27text-label%27%2520and%2520%27input-text%27%2520class%2520for%2520label%2520and%2520input%2520respectively%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522form-input%2522%253E%250A%2509%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-name%2522%253EName%253C%252Flabel%253E%250A%2509%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-text%2522%2520id%253D%2522input-name%2522%2520placeholder%253D%2522Name%2522%253E%250A%250A%2509%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-email%2522%253EEmail%2520Id%253C%252Flabel%253E%250A%2509%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-text%2522%2520id%253D%2522input-email%2522%2520placeholder%253D%2522Email%2520Id%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-tel%2522%253EPhone%2520Number%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522tel%2522%2520class%253D%2522input-text%2522%2520id%253D%2522input-tel%2522%2520placeholder%253D%2522Phone%2520number%2522%253E%250A%2520%2520%2520%2520%250A%2509%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-bdate%2522%253EBirth%2520Date%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522date%2522%2520class%253D%2522input-text%2522%2520id%253D%2522input-bdate%2522%2520placeholder%253D%2522%2520%2522%253E%250A%2520%2520%2520%2520%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-full-width%2522%253ESubmit%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    
+                </div>
+
+                
+                <div class="divider"></div>
+
+                <!-- Input with Validation -->
+
+                <div class="content-head">
+                    Input with Validation
+                </div>
+
+                <div class="example-display">
+                    <div class="form-input input-success">
+                        <label class="text-label" for="input-strong-password">
+                        Password
+                        </label>
+                        <input type="password" id="input-strong-password" class="input-text" placeholder="Enter your password...">
+                       
+                        <span class="text-message">Strong Password</span>
+                    </div>
+                </div>
+
+                <div class="example-display">
+                    <div class="form-input input-warning">
+                        <label class="text-label" for="input-weak-password">
+                        Password
+                        </label>
+                        <input type="password" id="input-weak-password" class="input-text" placeholder="Enter your password...">
+                       
+                        <span class="text-message">Weak Password</span>
+                    </div>
+                </div>
+
+                <div class="example-display">
+                    <div class="form-input input-error">
+                        <label class="text-label" for="input-wrong-password">
+                        Password
+                        </label>
+                        <input type="password" id="input-wrong-password" class="input-text" placeholder="Enter your password...">
+                       
+                        <span class="text-message">Wrong Password!</span>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F*Use%2520%27form-input%27%2520class%2520and%2520%27input-success%252C%2520input-warning%252C%2520input-error%27%2520as%2520per%2520the%2520required%2520validation%2520along%2520with%2520%27text-message%27%2520in%2520span%2520*%252F%250A%250A%253Cdiv%2520class%253D%2522form-input%2520input-success%2522%253E%250A%2509%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-strong-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522input-strong-password%2522%2520class%253D%2522input-text%2522%2520placeholder%253D%2522Enter%2520%2509your%2520password...%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-message%2522%253EStrong%2520Password%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522form-input%2520input-warning%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-weak-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522input-weak-password%2522%2520class%253D%2522input-text%2522%2520placeholder%253D%2522Enter%2520%2509%2509your%2520password...%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-message%2522%253EWeak%2520Password%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522form-input%2520input-error%2522%253E%250A%2509%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-wrong-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522input-wrong-password%2522%2520class%253D%2522input-text%2522%2520placeholder%253D%2522Enter%2520%2509%2509your%2520password...%2522%253E%250A%2509%253Cspan%2520class%253D%2522text-message%2522%253EWrong%2520Password%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                </div>
+
+                
+                <div class="divider"></div>
+
+                <!-- Input with Validation -->
+
+                <div class="content-head">
+                    Text Box
+                </div>
+
+                <div class="example-display">
+                    <div class="form-input textbox">
+                        <label class="text-label" for="input-textarea">
+                        Enter your Review
+                        </label>
+                        <textarea class="input-text" rows="7" cols="15" placeholder="Write your comments.."></textarea>
+                    </div>
+                </div>
+                <div class="code-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=none&l=css&width=800&ds=true&dsyoff=100px&dsblur=83px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F*Use%2520%27form-input%27%2520and%2520textbox%2520class%2520and%2520textarea%2520for%2520input*%252F%250A%250A%253Cdiv%2520class%253D%2522form-input%2520textbox%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522text-label%2522%2520for%253D%2522input-textarea%2522%253E%250A%2520%2520%2520%2520%2509Enter%2520your%2520Review%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input-text%2522%2520rows%253D%25227%2522%2520cols%253D%252215%2522%2520placeholder%253D%2522Write%2520your%2520comments..%2522%253E%2509%2509%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                </div>
+                <div class="divider"></div>
+
+                <!--Navigation-->
+                <div class="navigate">
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="/components/image/image.html">Image</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="/components/list/list.html">List</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-header">Made with <i class="fas fa-code"></i> by Ashwini Setty</div>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="https://github.com/AshwiniSetty" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ashwini-setty-b57313158/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/Ashwini_Setty" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+    </ul>
+    <div class="footer-header">&copy; 2022 - Minwii</div>
+</footer>
+</body>
+</html>
