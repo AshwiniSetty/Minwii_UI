@@ -1,0 +1,25 @@
+.list-stacked {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-stacked .list-head {
+    background-color: var(--default-color);
+    color: var(--off-white);
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.list-stacked li:hover {
+    background-color: var(--secondary-bg-color);
+}
+
+.list-stacked .list-item{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.list-style-none {
+    list-style: none;
+}
