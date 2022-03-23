@@ -1,0 +1,71 @@
+.typography{
+    display: flex;
+    flex-direction: column;
+}
+
+.example-display-text{
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    background-color: var(--off-white);
+    min-height: 100px;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.text {
+    max-width: 100%;
+    font-weight: 600;
+    display: block;
+}
+
+.text-small {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+}
+
+.text-regular {
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.text-large {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-default{
+    color: var(--default-color);
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-secondary{
+    color: var(--secondary-color);
+}
+
+.text-success{
+    color: var(--success-color);
+}
+
+.text-warning{
+    color: var(--warning-color);
+}
+
+.text-error{
+    color: var(--danger-color);
+}
