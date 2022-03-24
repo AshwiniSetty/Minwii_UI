@@ -64,6 +64,7 @@ main .sub-heading{
 
 .btn-primary:hover{
     background-color: var(--primary-hover);
+    border: 2px solid var(--off-white);
 }
 
 .btn-secondary{
@@ -73,7 +74,9 @@ main .sub-heading{
 }
 
 .btn-secondary:hover{
-    background-color: var(--secondary-hover);
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    border: 2px solid var(--off-white);
 }
 
 a{
