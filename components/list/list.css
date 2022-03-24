@@ -13,6 +13,7 @@
 
 .list-stacked li:hover {
     background-color: var(--secondary-bg-color);
+    cursor: pointer;
 }
 
 .list-stacked .list-item{
